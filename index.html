@@ -24,6 +24,98 @@
 	
       <div class="h-entry">
 		
+			<h1><a href="https://againstthefuture.net/2022/02/28/i-went-in.html"> I Went in Search of Decentralized Relational Storage</a></h1>
+		
+
+        <a href="https://againstthefuture.net/2022/02/28/i-went-in.html" class="u-url"><time class="dt-published" datetime="2022-02-28 22:22:55 -0700">Feb 28, 2022</time></a>
+
+        <div class="e-content">
+         	
+
+<p>I don&rsquo;t buy into the Blockchain hype, but I do see the value of decentralization and peer-to-peer (P2P) computing.  That said, this past weekend I went in search of an open-source peer-to-peer relational database. If you are not interested in this journey, I&rsquo;ll tell you now, I did not find decentralized, P2P, relational database.</p>
+
+<p>Relational databases hosted on a central (logical or physical) server make a ton of sense. It&rsquo;s easier to bump performance specs, merge changes without conflicts, there&rsquo;s no need to handle node discovery management, and the list goes on.</p>
+
+<h2 id="the-web3-offerings">The Web3 Offerings</h2>
+
+<p>From everything available, web3 promises us another hell of enclosure and private property.  I ended up scouring these fields because the hype cycle and VC money means there&rsquo;s a lot of people whose job is to write software towards the ends of financialized everything under the guise of decentralization. Also, these terms have become so loaded by the web3 people that all search engines lead to blockchain and its relatives.</p>
+
+<p>One protocol, the Interplanetary File System (IPFS), seemed promising. After giving it  a cursory read and concluding that it looked similar to what I wanted (offline first, peer to peer storage), I went in search of libraries that utilized this protocol to create a database.</p>
+
+<p>Libraries did exist, but the bulk of them are written in Javascript. That makes sense, considering that many frameworks for web3 were built to onboard as many people as possible as quickly as possible so that numbers go up. That being said, JavaScript is not the first place I&rsquo;d turn to for lower level operations — Javascript wasn&rsquo;t designed for that kind of programming.  My application backend is already being written in Go, so I search for those libraries</p>
+
+<p>Go offerings were present, it&rsquo;s just that everything in the space, especially the Go libraries I found, is an alpha prototype with a void of documentation and light on good examples and tutorials. Sometimes the libraries reference the JavaScript documentation as though it was a 1:1 correlation.</p>
+
+<p>I spent the better part of my Saturday reading documentation, pulling down code, and making test main.go files. The experience wasn&rsquo;t great, it didn&rsquo;t leave me feeling productive, and none of the solutions I found were relational databases.</p>
+
+<h3 id="content-addressing-systems">Content Addressing Systems</h3>
+
+<p>The best documented resource was the IPFS itself. It took minimal time to download a binary and have the daemon serving files. The immediate problem with IPFS is that instead of location-based file sharing, it uses a content hash. Rather than ask a computer where it is, you ask what it is. The issue with this is that every time you edit a file, the file (and thus its hash) changes. It would be like if you and your coworker were editing a Google Sheet but instead of merging the changes between the two of you, every change would create a new sheeting.</p>
+
+<ul>
+<li>Important_Sheet</li>
+<li>Important_Sheet1</li>
+<li>Important_Sheet13218931923</li>
+</ul>
+
+<p>Except content addressing is worse than this because it is all hashes, so, instead imagine every time you make an edit the file name changes, but the names look like the following:</p>
+
+<p><code>fe8df1a5a1980493ca9406ad3bb0e41297d979d90165a181fb39a5616a1c0789</code>
+<code>2f06df38fc91f6c0c35a0bf8d62e92ba32e9a73552523213e55caecd6ece1b24</code></p>
+
+<p><code>9aff1272d57527f40cd54527f72a215b4557f5e8b99b0771ca9a9f22a6f75dd3</code></p>
+
+<p>To the credit of the IPFS developers, they do realize this is a concern and have built a tool to handle the potential to infinitely create new files any time they are changed.</p>
+
+<blockquote>
+<p>Because files in IPFS are content-addressed and immutable, you can&rsquo;t edit files; instead, a new file is created with every change. The <strong>Mutable File System (MFS)</strong> is a tool built into IPFS that lets you treat files like you normally would in a name-based filesystem — you can add, remove, move, and edit MFS files and have all the work of updating links and hashes taken care of for you. It&rsquo;s an abstraction that lets you deal with immutable data as if it were mutable. (<a href="[IPFS Tutorial | Mutable File System (Lesson 1) | ProtoSchool](https://proto.school/mutable-file-system/01)">Source</a>)</p>
+</blockquote>
+
+<p>In addition to the potential headaches of immutable files —even if abstracted away —I noticed that the web3 folks seem to hate relational data, a requirement.</p>
+
+<p>At this point, I&rsquo;ve wrecked my search history and am I going to get nothing but ads for NFTs because I used all the keywords. Nevertheless, I persisted.</p>
+
+<h2 id="distributed-sqlite">Distributed SQLite</h2>
+
+<p>I did find a handful of great libraries during this search, just none of them handled the P2P component.</p>
+
+<p><a href="https://litestream.io/">Litestream</a> provides a great way to replicate an SQLite database, but it can&rsquo;t do bidirectional syncing out of the box and the maintainer rightfully pointed out that you quickly get into the land of <a href="[Conflict-free replicated data type - Wikipedia](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)">conflict-free replicated data types,</a> which pose their own challenges. Not worth it for this endeavor.
+ <a href="[GitHub - rqlite/rqlite: The lightweight, distributed relational database built on SQLite](https://github.com/rqlite/rqlite)">rqlite</a> it&rsquo;s a distributed relational database, but there doesn&rsquo;t appear to be mobile support, so I excluded it as a solution.
+ <a href="[Dqlite - High-Availability SQLite](https://dqlite.io/)">dqlite</a> I didn&rsquo;t get far enough into reading about all the capabilities, but it looks similar to rqlite, and by this point I&rsquo;ve spent my entire weekend fumbling through different options.</p>
+
+<h2 id="distributed-and-decentralized-computing-is-hard">Distributed and Decentralized Computing is Hard</h2>
+
+<p>I did not find an out-of-the-box solution for what I wanted this weekend. What I landed on for this application is just using the free tier of <a href="https://www.elephantsql.com/">ElephantSQL</a> as my backend because there is no good reason to make it P2P nor distributed outside my own interest in computing at the edge. This time, like many other times, Postgres is often the solution.</p>
+
+<p>I did find one proprietary <a href="http://litesync.io/en/">SQLite implementation</a> that supports P2P relational data. The problem is that the free binary limited to one table. At the time of this writing, the paid version was discounted to $750.  If I can think of a single table peer to peer application, I&rsquo;ll give the free binary a whirl.</p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://againstthefuture.net/2022/02/28/litestream-sqlite-replication.html" class="u-url"><time class="dt-published" datetime="2022-02-28 01:06:21 -0700">Feb 28, 2022</time></a>
+
+        <div class="e-content">
+         	<p>Litestream SQLite replication looks super interesting.</p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://againstthefuture.net/2022/02/22/scrapy-is-a.html" class="u-url"><time class="dt-published" datetime="2022-02-22 19:48:40 -0700">Feb 22, 2022</time></a>
+
+        <div class="e-content">
+         	<p>Scrapy is a great library for web scraping. It&rsquo;s my first real effort at using Python for a project and I have been enjoying it so far. Normally, I prefer to stay in the land of compiled languages, but this feels like the right language for the job. Need to read the docs more to figure out how to get dynamically loaded content.</p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
 
         <a href="https://againstthefuture.net/2022/02/21/for-a-brief.html" class="u-url"><time class="dt-published" datetime="2022-02-21 11:09:52 -0700">Feb 21, 2022</time></a>
 
@@ -488,7 +580,7 @@ The only other thing to say about this is that Blockchain Chicken Farm is hands 
         <div class="e-content">
          	<p>DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest.</p>
 
-<p><img src="uploads/2021/ab81775e08.jpg" width="600" height="245" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/ab81775e08.jpg" width="600" height="245" alt="" /></p>
 
         </div>
       </div>
@@ -514,7 +606,7 @@ The only other thing to say about this is that Blockchain Chicken Farm is hands 
         <div class="e-content">
          	<p>Day 21: This painting from a friend above my work shelf often reminds me of space.</p>
 
-<p><img src="uploads/2021/1a23e0a816.jpg" width="600" height="436" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/1a23e0a816.jpg" width="600" height="436" alt="" /></p>
 
         </div>
       </div>
@@ -603,7 +695,7 @@ The only other thing to say about this is that Blockchain Chicken Farm is hands 
         <div class="e-content">
          	<p>Day 20 when there is only one sport</p>
 
-<p><img src="uploads/2021/5af71528db.jpg" width="598" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/5af71528db.jpg" width="598" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -616,7 +708,7 @@ The only other thing to say about this is that Blockchain Chicken Farm is hands 
         <div class="e-content">
          	<p>Day 19: Some favorite and oft cited books on a <strong>mirror</strong></p>
 
-<p><img src="uploads/2021/1d6403266b.jpg" width="600" height="415" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/1d6403266b.jpg" width="600" height="415" alt="" /></p>
 
         </div>
       </div>
@@ -652,7 +744,7 @@ The only other thing to say about this is that Blockchain Chicken Farm is hands 
          	<p>Day 18: I said I&rsquo;d be <strong>finished</strong> hanging flyers when I ran out of tape.
 Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell&hellip;</a></p>
 
-<p><img src="uploads/2021/063713a721.jpg" width="480" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/063713a721.jpg" width="480" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -665,7 +757,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story.</p>
 
-<p><img src="uploads/2021/bbb5bf77f6.jpg" width="450" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/bbb5bf77f6.jpg" width="450" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -682,7 +774,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
 
 <p>/ <a href="https://micro.blog/challenges">@challenges</a></p>
 
-<p><img src="uploads/2021/ffeb71f55c.jpg" width="590" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/ffeb71f55c.jpg" width="590" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -717,7 +809,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>DAY 15: An ethereal moment in gaming history</p>
 
-<p><img src="uploads/2021/39e0fbe1d0.jpg" width="600" height="300" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/39e0fbe1d0.jpg" width="600" height="300" alt="" /></p>
 
         </div>
       </div>
@@ -730,7 +822,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 14: wheels up</p>
 
-<p><img src="uploads/2021/386e5699eb.jpg" width="600" height="426" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/386e5699eb.jpg" width="600" height="426" alt="" /></p>
 
         </div>
       </div>
@@ -743,7 +835,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 13: love running into alley animals.</p>
 
-<p><img src="uploads/2021/dc90c89925.jpg" width="347" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/dc90c89925.jpg" width="347" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -778,7 +870,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that&rsquo;s not true, she did smoke three packs of these a day.</p>
 
-<p><img src="uploads/2021/797c5f72ab.jpg" width="398" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/797c5f72ab.jpg" width="398" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -879,7 +971,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 11: Higge</p>
 
-<p><img src="uploads/2021/e3da675b72.jpg" width="600" height="400" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/e3da675b72.jpg" width="600" height="400" alt="" /></p>
 
         </div>
       </div>
@@ -892,7 +984,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 10: A bridge of cards</p>
 
-<p><img src="uploads/2021/e86cd74641.jpg" width="600" height="484" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/e86cd74641.jpg" width="600" height="484" alt="" /></p>
 
         </div>
       </div>
@@ -905,7 +997,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe.</p>
 
-<p><img src="uploads/2021/648bbb890a.jpg" width="446" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/648bbb890a.jpg" width="446" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -985,7 +1077,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 8: A favorite building at twilight.</p>
 
-<p><img src="uploads/2021/be4fc1f882.jpg" width="600" height="362" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/be4fc1f882.jpg" width="600" height="362" alt="" /></p>
 
         </div>
       </div>
@@ -998,7 +1090,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 7 the pandemic introduced me to my favorite spice.</p>
 
-<p><img src="uploads/2021/a93a717fbf.jpg" width="600" height="285" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/a93a717fbf.jpg" width="600" height="285" alt="" /></p>
 
         </div>
       </div>
@@ -1024,7 +1116,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 6: I don&rsquo;t think we ever planned for the number of cars that would be in the streets.</p>
 
-<p><img src="uploads/2021/8d973436e2.jpg" width="400" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/8d973436e2.jpg" width="400" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -1135,7 +1227,7 @@ Flyer created by: <a href="https://twitter.com/banditelli">twitter.com/banditell
         <div class="e-content">
          	<p>Day 5: Toy. I love Hanayama puzzles.</p>
 
-<p><img src="uploads/2021/2288a75049.jpg" width="600" height="360" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/2288a75049.jpg" width="600" height="360" alt="" /></p>
 
         </div>
       </div>
@@ -1216,7 +1308,7 @@ composition scenario.&rdquo; (190)</p>
         <div class="e-content">
          	<p>Day 4: Sharp</p>
 
-<p><img src="uploads/2021/c1ee9bc50e.jpg" width="600" height="375" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/c1ee9bc50e.jpg" width="600" height="375" alt="" /></p>
 
         </div>
       </div>
@@ -1229,7 +1321,7 @@ composition scenario.&rdquo; (190)</p>
         <div class="e-content">
          	<p>DAY 3: Something about this feels in line with <em>majority</em>.</p>
 
-<p><img src="uploads/2021/4022db32f4.jpg" width="386" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/4022db32f4.jpg" width="386" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -1242,7 +1334,7 @@ composition scenario.&rdquo; (190)</p>
         <div class="e-content">
          	<p>Day 2: Bronx building in the dark</p>
 
-<p><img src="uploads/2021/7744613075.png" width="400" height="600" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/7744613075.png" width="400" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -1396,7 +1488,7 @@ Inventory:</p>
         <div class="e-content">
          	<p>Day 1 of Micro&rsquo;s October Photo Challenge. The theme is touch and I&rsquo;m and thinking of the perennial online insult of social medias past.</p>
 
-<p><img src="uploads/2021/c96a9d1909.jpg" width="600" height="400" alt="" /></p>
+<p><img src="https://againstthefuture.net/uploads/2021/c96a9d1909.jpg" width="600" height="400" alt="" /></p>
 
         </div>
       </div>
