@@ -7,12 +7,29 @@
 	"items": [
 		
 			{
+				"id": "http://jmiller.micro.blog/2022/05/23/tips-for-windows.html",
+				
+				"content_html": "<p>Tips for Windows users who hate navigating through the new GUIs: Typing appwiz.cpl and compmgmt.msc into your search bar will give you actually useful menus.</p>\n",
+				"content_text": "Tips for Windows users who hate navigating through the new GUIs: Typing appwiz.cpl and compmgmt.msc into your search bar will give you actually useful menus. \n",
+				"date_published": "2022-05-23T07:18:01-06:00",
+				"url": "https://againstthefuture.net/2022/05/23/tips-for-windows.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/05/13/my-dear-friend.html",
+				
+				"content_html": "<p>My dear friend <a href=\"https://micro.blog/ParasiteHouse\">@ParasiteHouse</a> is back online and posting his poetry and writing. Please give him a follow. The micro blog community is great and I feel like I&rsquo;ve been selling him on it forever and he&rsquo;s finally here.</p>\n",
+				"content_text": "My dear friend [@ParasiteHouse](https://micro.blog/ParasiteHouse) is back online and posting his poetry and writing. Please give him a follow. The micro blog community is great and I feel like I've been selling him on it forever and he's finally here. \n",
+				"date_published": "2022-05-13T07:55:45-06:00",
+				"url": "https://againstthefuture.net/2022/05/13/my-dear-friend.html"
+			},
+			{
 				"id": "http://jmiller.micro.blog/2022/05/09/forgot-to-export.html",
 				
 				"content_html": "<p>Forgot to export my MFA tokens before factory resetting old phone. I have backup codes, but there should be some checks built into the transfer process.</p>\n\n<p>I was going from Pixel 4a to Pixel 5a.</p>\n\n<p>Normally, I wait a month before resetting, but am giving the old device to a friend.</p>\n",
-				"content_text": "Forgot to export my MFA tokens before factory resetting old phone. I have backup codes, but there should be some checks built into the transfer process. \r\n\r\nI was going from Pixel 4a to Pixel 5a.\r\n\r\nNormally, I wait a month before resetting, but am giving the old device to a friend. \n",
-				"date_published": "2022-05-09T12:36:42-06:00",
-				"url": "https://againstthefuture.net/2022/05/09/forgot-to-export.html"
+				"content_text": "Forgot to export my MFA tokens before factory resetting old phone. I have backup codes, but there should be some checks built into the transfer process. \n\nI was going from Pixel 4a to Pixel 5a.\n\nNormally, I wait a month before resetting, but am giving the old device to a friend. \n",
+				"date_published": "2022-05-09T12:36:00-06:00",
+				"url": "https://againstthefuture.net/2022/05/09/forgot-to-export.html",
+				"tags": ["technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2022/04/19/i-have-so.html",
@@ -83,16 +100,18 @@
 				
 				"content_html": "<p>I really like Go Embed. For a big project, I&rsquo;d maybe want the frontend elsewhere, but for personal tools or something I&rsquo;m sharing with my team, it reduces dependencies and allows us to just use the binary or <code>go run main.go</code></p>\n",
 				"content_text": "I really like Go Embed. For a big project, I'd maybe want the frontend elsewhere, but for personal tools or something I'm sharing with my team, it reduces dependencies and allows us to just use the binary or `go run main.go`\n",
-				"date_published": "2022-03-10T13:50:48-06:00",
-				"url": "https://againstthefuture.net/2022/03/10/i-really-like.html"
+				"date_published": "2022-03-10T13:50:00-06:00",
+				"url": "https://againstthefuture.net/2022/03/10/i-really-like.html",
+				"tags": ["technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2022/02/28/web-hates-relational.html",
 				
 				"content_html": "<p>web3 hates relational databases because these databases encourage you to duplicate data as little as possible and the web3 imperative is to dedicate every CPU cycle to replicating already existing data.</p>\n",
 				"content_text": "web3 hates relational databases because these databases encourage you to duplicate data as little as possible and the web3 imperative is to dedicate every CPU cycle to replicating already existing data. \n",
-				"date_published": "2022-02-28T23:30:23-06:00",
-				"url": "https://againstthefuture.net/2022/02/28/web-hates-relational.html"
+				"date_published": "2022-02-28T23:30:00-06:00",
+				"url": "https://againstthefuture.net/2022/02/28/web-hates-relational.html",
+				"tags": ["technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2022/02/28/i-went-in.html",
@@ -100,7 +119,8 @@
 				"content_html": "\n\n<p>I don&rsquo;t buy into the Blockchain hype, but I do see the value of decentralization and peer-to-peer (P2P) computing.  That said, this past weekend I went in search of an open-source peer-to-peer relational database. If you are not interested in this journey, I&rsquo;ll tell you now, I did not find decentralized, P2P, relational database.</p>\n\n<p>Relational databases hosted on a central (logical or physical) server make a ton of sense. It&rsquo;s easier to bump performance specs, merge changes without conflicts, there&rsquo;s no need to handle node discovery management, and the list goes on.</p>\n\n<h2 id=\"the-web3-offerings\">The Web3 Offerings</h2>\n\n<p>From everything available, web3 promises us another hell of enclosure and private property.  I ended up scouring these fields because the hype cycle and VC money means there&rsquo;s a lot of people whose job is to write software towards the ends of financialized everything under the guise of decentralization. Also, these terms have become so loaded by the web3 people that all search engines lead to blockchain and its relatives.</p>\n\n<p>One protocol, the Interplanetary File System (IPFS), seemed promising. After giving it  a cursory read and concluding that it looked similar to what I wanted (offline first, peer-to-peer storage), I went in search of libraries that utilized this protocol to create a database.</p>\n\n<p>Libraries did exist, but the bulk of them are written in Javascript. That makes sense, considering that many frameworks for web3 were built to onboard as many people as possible as quickly as possible so that numbers go up. That being said, JavaScript is not the first place I&rsquo;d turn to for lower level operations — Javascript wasn&rsquo;t designed for that kind of programming.  My application backend is already being written in Go, so I search for those libraries</p>\n\n<p>Go offerings were present, it&rsquo;s just that everything in the space, especially the Go libraries I found, is an alpha prototype with a void of documentation and light on good examples and tutorials. Sometimes the libraries reference the JavaScript documentation as though it was a 1:1 correlation.</p>\n\n<p>I spent the better part of my Saturday reading documentation, pulling down code, and making test main.go files. The experience wasn&rsquo;t great, it didn&rsquo;t leave me feeling productive, and none of the solutions I found were relational databases.</p>\n\n<h3 id=\"content-addressing-systems\">Content Addressing Systems</h3>\n\n<p>The best documented resource was the IPFS itself. It took minimal time to download a binary and have the daemon serving files. The immediate problem with IPFS is that instead of location-based file sharing, it uses a content hash. Rather than ask a computer where it is, you ask what it is. The issue with this is that every time you edit a file, the file (and thus its hash) changes. It would be like if you and your coworker were editing a Google Sheet but instead of merging the changes between the two of you, every change would create a new sheeting.</p>\n\n<ul>\n<li>Important_Sheet</li>\n<li>Important_Sheet1</li>\n<li>Important_Sheet13218931923</li>\n</ul>\n\n<p>Except content addressing is worse than this because it is all hashes, so, instead imagine every time you make an edit the file name changes, but the names look like the following:</p>\n\n<p><code>fe8df1a5a1980493ca9406ad3bb0e41297d979d90165a181fb39a5616a1c0789</code>\n<code>2f06df38fc91f6c0c35a0bf8d62e92ba32e9a73552523213e55caecd6ece1b24</code></p>\n\n<p><code>9aff1272d57527f40cd54527f72a215b4557f5e8b99b0771ca9a9f22a6f75dd3</code></p>\n\n<p>To the credit of the IPFS developers, they do realize this is a concern and have built a tool to handle the potential to infinitely create new files any time they are changed.</p>\n\n<blockquote>\n<p>Because files in IPFS are content-addressed and immutable, you can&rsquo;t edit files; instead, a new file is created with every change. The <strong>Mutable File System (MFS)</strong> is a tool built into IPFS that lets you treat files like you normally would in a name-based filesystem — you can add, remove, move, and edit MFS files and have all the work of updating links and hashes taken care of for you. It&rsquo;s an abstraction that lets you deal with immutable data as if it were mutable. (<a href=\"[IPFS Tutorial | Mutable File System (Lesson 1) | ProtoSchool](https://proto.school/mutable-file-system/01)\">Source</a>)</p>\n</blockquote>\n\n<p>In addition to the potential headaches of immutable files —even if abstracted away —I noticed that the web3 folks seem to hate relational data, a requirement.</p>\n\n<p>At this point, I&rsquo;ve wrecked my search history and am I going to get nothing but ads for NFTs because I used all the keywords. Nevertheless, I persisted.</p>\n\n<h2 id=\"distributed-sqlite\">Distributed SQLite</h2>\n\n<p>I did find a handful of great libraries during this search, just none of them handled the P2P component.</p>\n\n<p><a href=\"https://litestream.io/\">Litestream</a> provides a great way to replicate an SQLite database, but it can&rsquo;t do bidirectional syncing out of the box and the maintainer rightfully pointed out that you quickly get into the land of <a href=\"[Conflict-free replicated data type - Wikipedia](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)\">conflict-free replicated data types,</a> which pose their own challenges. Not worth it for this endeavor.\n <a href=\"[GitHub - rqlite/rqlite: The lightweight, distributed relational database built on SQLite](https://github.com/rqlite/rqlite)\">rqlite</a> it&rsquo;s a distributed relational database, but there doesn&rsquo;t appear to be mobile support, so I excluded it as a solution.\n <a href=\"[Dqlite - High-Availability SQLite](https://dqlite.io/)\">dqlite</a> I didn&rsquo;t get far enough into reading about all the capabilities, but it looks similar to rqlite, and by this point I&rsquo;ve spent my entire weekend fumbling through different options.</p>\n\n<h2 id=\"distributed-and-decentralized-computing-is-hard\">Distributed and Decentralized Computing is Hard</h2>\n\n<p>I did not find an out-of-the-box solution for what I wanted this weekend. What I landed on for this application is just using the free tier of <a href=\"https://www.elephantsql.com/\">ElephantSQL</a> as my backend because there is no good reason to make it P2P nor distributed outside my own interest in computing at the edge. This time, like many other times, Postgres is often the solution.</p>\n\n<p>I did find one proprietary <a href=\"http://litesync.io/en/\">SQLite implementation</a> that supports P2P relational data. The problem is that the free binary limited to one table. At the time of this writing, the paid version was discounted to $750.  If I can think of a single table peer to peer application, I&rsquo;ll give the free binary a whirl.</p>\n",
 				"content_text": "I don't buy into the Blockchain hype, but I do see the value of decentralization and peer-to-peer (P2P) computing.  That said, this past weekend I went in search of an open-source peer-to-peer relational database. If you are not interested in this journey, I'll tell you now, I did not find decentralized, P2P, relational database. \n\nRelational databases hosted on a central (logical or physical) server make a ton of sense. It's easier to bump performance specs, merge changes without conflicts, there's no need to handle node discovery management, and the list goes on. \n\n## The Web3 Offerings \n\nFrom everything available, web3 promises us another hell of enclosure and private property.  I ended up scouring these fields because the hype cycle and VC money means there's a lot of people whose job is to write software towards the ends of financialized everything under the guise of decentralization. Also, these terms have become so loaded by the web3 people that all search engines lead to blockchain and its relatives. \n\nOne protocol, the Interplanetary File System (IPFS), seemed promising. After giving it  a cursory read and concluding that it looked similar to what I wanted (offline first, peer-to-peer storage), I went in search of libraries that utilized this protocol to create a database.\n\nLibraries did exist, but the bulk of them are written in Javascript. That makes sense, considering that many frameworks for web3 were built to onboard as many people as possible as quickly as possible so that numbers go up. That being said, JavaScript is not the first place I'd turn to for lower level operations — Javascript wasn't designed for that kind of programming.  My application backend is already being written in Go, so I search for those libraries\n\nGo offerings were present, it's just that everything in the space, especially the Go libraries I found, is an alpha prototype with a void of documentation and light on good examples and tutorials. Sometimes the libraries reference the JavaScript documentation as though it was a 1:1 correlation. \n\nI spent the better part of my Saturday reading documentation, pulling down code, and making test main.go files. The experience wasn't great, it didn't leave me feeling productive, and none of the solutions I found were relational databases.\n\n### Content Addressing Systems\n\nThe best documented resource was the IPFS itself. It took minimal time to download a binary and have the daemon serving files. The immediate problem with IPFS is that instead of location-based file sharing, it uses a content hash. Rather than ask a computer where it is, you ask what it is. The issue with this is that every time you edit a file, the file (and thus its hash) changes. It would be like if you and your coworker were editing a Google Sheet but instead of merging the changes between the two of you, every change would create a new sheeting. \n\n- Important_Sheet\n- Important_Sheet1\n- Important_Sheet13218931923\n\nExcept content addressing is worse than this because it is all hashes, so, instead imagine every time you make an edit the file name changes, but the names look like the following: \n\n`fe8df1a5a1980493ca9406ad3bb0e41297d979d90165a181fb39a5616a1c0789`\n`2f06df38fc91f6c0c35a0bf8d62e92ba32e9a73552523213e55caecd6ece1b24` \n\n`9aff1272d57527f40cd54527f72a215b4557f5e8b99b0771ca9a9f22a6f75dd3`\n\nTo the credit of the IPFS developers, they do realize this is a concern and have built a tool to handle the potential to infinitely create new files any time they are changed. \n\n> Because files in IPFS are content-addressed and immutable, you can't edit files; instead, a new file is created with every change. The **Mutable File System (MFS)** is a tool built into IPFS that lets you treat files like you normally would in a name-based filesystem — you can add, remove, move, and edit MFS files and have all the work of updating links and hashes taken care of for you. It's an abstraction that lets you deal with immutable data as if it were mutable. ([Source]([IPFS Tutorial | Mutable File System (Lesson 1) | ProtoSchool](https://proto.school/mutable-file-system/01)))\n\nIn addition to the potential headaches of immutable files —even if abstracted away —I noticed that the web3 folks seem to hate relational data, a requirement.\n\nAt this point, I've wrecked my search history and am I going to get nothing but ads for NFTs because I used all the keywords. Nevertheless, I persisted.  \n\n## Distributed SQLite \n\nI did find a handful of great libraries during this search, just none of them handled the P2P component. \n\n[Litestream](https://litestream.io/) provides a great way to replicate an SQLite database, but it can't do bidirectional syncing out of the box and the maintainer rightfully pointed out that you quickly get into the land of [conflict-free replicated data types,]([Conflict-free replicated data type - Wikipedia](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)) which pose their own challenges. Not worth it for this endeavor. \n [rqlite]([GitHub - rqlite/rqlite: The lightweight, distributed relational database built on SQLite](https://github.com/rqlite/rqlite)) it's a distributed relational database, but there doesn't appear to be mobile support, so I excluded it as a solution. \n [dqlite]([Dqlite - High-Availability SQLite](https://dqlite.io/)) I didn't get far enough into reading about all the capabilities, but it looks similar to rqlite, and by this point I've spent my entire weekend fumbling through different options. \n\n## Distributed and Decentralized Computing is Hard\n\nI did not find an out-of-the-box solution for what I wanted this weekend. What I landed on for this application is just using the free tier of [ElephantSQL](https://www.elephantsql.com/) as my backend because there is no good reason to make it P2P nor distributed outside my own interest in computing at the edge. This time, like many other times, Postgres is often the solution. \n\nI did find one proprietary [SQLite implementation](http://litesync.io/en/) that supports P2P relational data. The problem is that the free binary limited to one table. At the time of this writing, the paid version was discounted to $750.  If I can think of a single table peer to peer application, I'll give the free binary a whirl. \n",
 				"date_published": "2022-02-28T23:22:00-06:00",
-				"url": "https://againstthefuture.net/2022/02/28/i-went-in.html"
+				"url": "https://againstthefuture.net/2022/02/28/i-went-in.html",
+				"tags": ["technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2022/02/28/litestream-sqlite-replication.html",
@@ -115,8 +135,9 @@
 				
 				"content_html": "<p>Scrapy is a great library for web scraping. It&rsquo;s my first real effort at using Python for a project and I have been enjoying it so far. Normally, I prefer to stay in the land of compiled languages, but this feels like the right language for the job. Need to read the docs more to figure out how to get dynamically loaded content.</p>\n",
 				"content_text": "Scrapy is a great library for web scraping. It's my first real effort at using Python for a project and I have been enjoying it so far. Normally, I prefer to stay in the land of compiled languages, but this feels like the right language for the job. Need to read the docs more to figure out how to get dynamically loaded content. \n",
-				"date_published": "2022-02-22T20:48:40-06:00",
-				"url": "https://againstthefuture.net/2022/02/22/scrapy-is-a.html"
+				"date_published": "2022-02-22T20:48:00-06:00",
+				"url": "https://againstthefuture.net/2022/02/22/scrapy-is-a.html",
+				"tags": ["technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2022/02/21/for-a-brief.html",
@@ -214,8 +235,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/22/day-two-years.html",
 				
-				"content_html": "<p>DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest.</p>\n\n<p><img src=\"uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" /></p>\n",
-				"content_text": "DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest. \n\n<img src=\"uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" />\n",
+				"content_html": "<p>DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" /></p>\n",
+				"content_text": "DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest. \n\n<img src=\"https://againstthefuture.net/uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" />\n",
 				"date_published": "2021-10-22T23:14:10-06:00",
 				"url": "https://againstthefuture.net/2021/10/22/day-two-years.html"
 			},
@@ -231,8 +252,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/21/day-this-painting.html",
 				
-				"content_html": "<p>Day 21: This painting from a friend above my work shelf often reminds me of space.</p>\n\n<p><img src=\"uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" /></p>\n",
-				"content_text": "Day 21: This painting from a friend above my work shelf often reminds me of space. \n\n<img src=\"uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" />\n",
+				"content_html": "<p>Day 21: This painting from a friend above my work shelf often reminds me of space.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" /></p>\n",
+				"content_text": "Day 21: This painting from a friend above my work shelf often reminds me of space. \n\n<img src=\"https://againstthefuture.net/uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" />\n",
 				"date_published": "2021-10-21T22:49:20-06:00",
 				"url": "https://againstthefuture.net/2021/10/21/day-this-painting.html"
 			},
@@ -243,21 +264,21 @@
 				"content_text": "# Why Would I Want an Append Only Ledger?    \n \n*Author's Note: The point of this post is to highlight the actual use cases for an append-only ledger and how these ledgers, especially blockchain, are not useful in most cases. I'm collecting my thoughts here in a longer form so that I can later distill them into something much shorter. I wanted to do this through exploring the actual use cases instead of focusing on the rampant scams.*\n\nAt this point in our collective history, it is a well trod trope that if an issue exists, someone with a vested interest in the world's most well known speculative commodity will ask, “have you considered putting x on the blockchain?” To which 99.9999 percent of people should respond with, “won't work, do you have anything else?”.\n\nMaybe I should be more generous. Perhaps there is something the blockchain has to offer. For my purposes, I am going to ignore Bitcoin and its offspring, despite blockchains and cryptocurrencies being deeply entwined with one another. So, what is a blockchain? \n\nAt its simplest definition, a blockchain is an *append-only* database. In other words, a log of information that you can write to, but you cannot modify or delete. There are more properties that enthusiasts will point out, such as that it is *decentralized* and *cryptographically secured*. I will address those properties later, but first when would we want a record that we could create but not modify?\n\n## Append Only Ledgers in the Wild\n\nPerhaps, the largest and most successful use case involving an append-only ledger is the version control software known as [git](https://git-scm.com/). This software has enabled projects around the world to collaboratively work together. Git allows project maintainers to keep track of the approved version of the project, while simultaneously allowing people to make separate versions and then submit their versions to be added to the main branch of the project. \n\nAnother use case for an append-only ledger is tamper-evident logging. The programming language [Go](https://golang.org/) uses this to manage packages within projects and allows developers to verify which packages the project includes and when they were changed. This would be useful in the case of a compromised package, where attackers inserted malicious code. The version of the code that was not compromised will have a different signature than the compromised code. \n\nWe do see that append-only ledgers have some use cases, but these cases are narrow and there is little reason to glom them onto every problem in need of solving. Most people in search of a technologist are not seeking write-only databases.  \n\n## What about blockchain? \n\nBlockchain enthusiasts will mention that it is more than an append-only ledger. Its other features include being *decentralized* and *cryptographically secure*.\n\nThese phrases have been uttered so often as inherently good that they are more the incantations of salesmen than words that convey information.\n\n### On Decentralization\n\nDecentralization is heralded as a good because the blockchain community has a monomaniacal focus on trust. *The Politics of Bitcoin* ([summarized here](https://de-contemporary.com/david-golumbia-the-politics-of-bitcoin/)) travels through the ideology of the community, but this feature is worth examining. \n\nThe invocation of  decentralization by the community tends to mean two things. The first is that it is *distributed*, and the second is that the technology is free from the oversight and control of a *centralized* authority. \n\nA distributed system is one where some or all (all in the case of blockchains) of the data that exists on one machine also exists on another. This provides the guarantee that if one part of the system experiences a catastrophic failure, the information is secured because it has been replicated across multiple nodes. Distribution is a positive feature, but it can be had with less energy and computational resources than a blockchain requires. \n\nWhile enthusiasts spend copious amounts of time discussing trust, the use case this belies that is bound up in decentralization is *censorship resistance*. Blockchain enthusiasts point out that if users trust a centralized authority, that authority could decide to unilaterally act and prevent users from partaking in an action that the authority disagrees with. The bulk of human activity is not censorship resistant, and this feature goes unneeded by the masses. \n\nThis is not to suggest people who do genuinely need censorship resistance don't exist. Journalists working in countries where there are hostile government and non-governmental entities, sex workers accepting payments that won't be seized or upheld by banks, and people sending remittances to their families in countries that are currently under sanctions are all valid use cases. \n\nThere are those who may point to getting removed from platforms such as Facebook, Twitter, and Instagram as a form of censorship and that applications built on the blockchain can intervene here. Again, there are numerous means to continue publishing online without relying on blockchains. The sheer market concentration and reach that a handful of platforms possesses is a problem better solved by antitrust, not blockchains.\n\n### On Cryptography\n\nThe ledger is broken into blocks that contain batches of valid transactions, and what is genuinely interesting is that each block possesses a cryptographic hash of the prior block, linking that and all preceding blocks back together. In  cryptography and computer science, this is called a Merkle Tree. \n\nThis in and of itself does not add *security*, but it does make it so that the blocks can be audited by verifying that hashes for transactions match. If the blockchain is public and not at risk of suffering a [51 percent attack](https://dci.mit.edu/51-attacks), then those viewing the transactions can be reasonably certain that the ledger is accurate. \n\nThe security aspect comes through public-key cryptography. The data stored on the blockchain can be associated with a *public key* (think of this like a Post Office box). Anyone viewing the ledger can see that information was sent to your address; however,  to view the contents, you must open this with a *private key* (consider this to be a key to a post office box). \n\nWhen a perfect solution does not exist, public key cryptography is a great line of defense. \n\nNoting these benefits, it is possible to use public key cryptography without relying on the blockchain. Creating an auditable database is something that has been done many times over, and most people administering systems will want something that requires less computational resources. \n\n\n## Conclusion \n\nAppend-only databases are not a new technology, the present moment just has them co-opted in service of a digital tulip mania. There are a few valid use cases for append-only ledgers; however, most people working on a project will find simpler methods for distributing their system, ensuring its security, and trusting those that they work with rather.  \n\n## Further Reading \n[Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)  \n[Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography#Public_key_infrastructure)\n\n## Links  \n[Plugin to help understand blockchain](https://chrome.google.com/webstore/detail/replace-blockchain-with-s/johdgapbhomlhcflancninpeafocpopn?hl=en-US)  \n\n",
 				"date_published": "2021-10-21T21:48:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/21/why-would-i.html",
-				"tags": ["capstone","essays"]
+				"tags": ["capstone","essays","technology"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/20/day-when-there.html",
 				
-				"content_html": "<p>Day 20 when there is only one sport</p>\n\n<p><img src=\"uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 20 when there is only one sport \n\n<img src=\"uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 20 when there is only one sport</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 20 when there is only one sport \n\n<img src=\"https://againstthefuture.net/uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-20T23:19:12-06:00",
 				"url": "https://againstthefuture.net/2021/10/20/day-when-there.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/19/day-some-favorite.html",
 				
-				"content_html": "<p>Day 19: Some favorite and oft cited books on a <strong>mirror</strong></p>\n\n<p><img src=\"uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" /></p>\n",
-				"content_text": "Day 19: Some favorite and oft cited books on a **mirror**\n\n<img src=\"uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" />\n",
+				"content_html": "<p>Day 19: Some favorite and oft cited books on a <strong>mirror</strong></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" /></p>\n",
+				"content_text": "Day 19: Some favorite and oft cited books on a **mirror**\n\n<img src=\"https://againstthefuture.net/uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" />\n",
 				"date_published": "2021-10-19T23:16:42-06:00",
 				"url": "https://againstthefuture.net/2021/10/19/day-some-favorite.html"
 			},
@@ -281,8 +302,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/18/day-i-said.html",
 				
-				"content_html": "<p>Day 18: I said I&rsquo;d be <strong>finished</strong> hanging flyers when I ran out of tape.\nFlyer created by: <a href=\"https://twitter.com/banditelli\">twitter.com/banditell&hellip;</a></p>\n\n<p><img src=\"uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 18: I said I'd be **finished** hanging flyers when I ran out of tape.\nFlyer created by: [twitter.com/banditell...](https://twitter.com/banditelli)\n\n<img src=\"uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 18: I said I&rsquo;d be <strong>finished</strong> hanging flyers when I ran out of tape.\nFlyer created by: <a href=\"https://twitter.com/banditelli\">twitter.com/banditell&hellip;</a></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 18: I said I'd be **finished** hanging flyers when I ran out of tape.\nFlyer created by: [twitter.com/banditell...](https://twitter.com/banditelli)\n\n<img src=\"https://againstthefuture.net/uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-18T22:33:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/18/day-i-said.html",
 				"tags": ["october"]
@@ -290,16 +311,16 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/17/day-compass-i.html",
 				
-				"content_html": "<p>Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story.</p>\n\n<p><img src=\"uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story. \n\n<img src=\"uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story. \n\n<img src=\"https://againstthefuture.net/uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-17T22:55:34-06:00",
 				"url": "https://againstthefuture.net/2021/10/17/day-compass-i.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/16/rotation-day-ive.html",
 				
-				"content_html": "<p><strong>Rotation</strong> Day 16\n&gt; <em>I&rsquo;ve got a feeling the weather is changing<br />\n&gt;  And my luck is in</em></p>\n\n<p>/ <a href=\"https://micro.blog/challenges\">@challenges</a></p>\n\n<p><img src=\"uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "**Rotation** Day 16\n> *I've got a feeling the weather is changing  \n>  And my luck is in*\n\n/ [@challenges](https://micro.blog/challenges) \n\n<img src=\"uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><strong>Rotation</strong> Day 16\n&gt; <em>I&rsquo;ve got a feeling the weather is changing<br />\n&gt;  And my luck is in</em></p>\n\n<p>/ <a href=\"https://micro.blog/challenges\">@challenges</a></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "**Rotation** Day 16\n> *I've got a feeling the weather is changing  \n>  And my luck is in*\n\n/ [@challenges](https://micro.blog/challenges) \n\n<img src=\"https://againstthefuture.net/uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-16T23:08:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/16/rotation-day-ive.html",
 				"tags": ["october"]
@@ -325,24 +346,24 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/15/day-an-ethereal.html",
 				
-				"content_html": "<p>DAY 15: An ethereal moment in gaming history</p>\n\n<p><img src=\"uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" /></p>\n",
-				"content_text": "DAY 15: An ethereal moment in gaming history \n\n<img src=\"uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" />\n",
+				"content_html": "<p>DAY 15: An ethereal moment in gaming history</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" /></p>\n",
+				"content_text": "DAY 15: An ethereal moment in gaming history \n\n<img src=\"https://againstthefuture.net/uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" />\n",
 				"date_published": "2021-10-15T23:23:30-06:00",
 				"url": "https://againstthefuture.net/2021/10/15/day-an-ethereal.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/14/day-wheels-up.html",
 				
-				"content_html": "<p>Day 14: wheels up</p>\n\n<p><img src=\"uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" /></p>\n",
-				"content_text": "Day 14: wheels up\n\n<img src=\"uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" />\n",
+				"content_html": "<p>Day 14: wheels up</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" /></p>\n",
+				"content_text": "Day 14: wheels up\n\n<img src=\"https://againstthefuture.net/uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" />\n",
 				"date_published": "2021-10-14T23:10:03-06:00",
 				"url": "https://againstthefuture.net/2021/10/14/day-wheels-up.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/13/day-love-running.html",
 				
-				"content_html": "<p>Day 13: love running into alley animals.</p>\n\n<p><img src=\"uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 13: love running into alley animals.\n\n<img src=\"uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 13: love running into alley animals.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 13: love running into alley animals.\n\n<img src=\"https://againstthefuture.net/uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-13T23:52:55-06:00",
 				"url": "https://againstthefuture.net/2021/10/13/day-love-running.html"
 			},
@@ -366,8 +387,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/12/day-my-grandma.html",
 				
-				"content_html": "<p>Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that&rsquo;s not true, she did smoke three packs of these a day.</p>\n\n<p><img src=\"uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that's not true, she did smoke three packs of these a day. \n\n\n\n<img src=\"uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that&rsquo;s not true, she did smoke three packs of these a day.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that's not true, she did smoke three packs of these a day. \n\n\n\n<img src=\"https://againstthefuture.net/uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-12T23:22:23-06:00",
 				"url": "https://againstthefuture.net/2021/10/12/day-my-grandma.html"
 			},
@@ -391,16 +412,16 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/11/day-higge.html",
 				
-				"content_html": "<p>Day 11: Higge</p>\n\n<p><img src=\"uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Day 11: Higge\n\n<img src=\"uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Day 11: Higge</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Day 11: Higge\n\n<img src=\"https://againstthefuture.net/uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-11T23:50:48-06:00",
 				"url": "https://againstthefuture.net/2021/10/11/day-higge.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/10/day-a-bridge.html",
 				
-				"content_html": "<p>Day 10: A bridge of cards</p>\n\n<p><img src=\"uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" /></p>\n",
-				"content_text": "Day 10: A bridge of cards\n\n<img src=\"uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" />\n",
+				"content_html": "<p>Day 10: A bridge of cards</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" /></p>\n",
+				"content_text": "Day 10: A bridge of cards\n\n<img src=\"https://againstthefuture.net/uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" />\n",
 				"date_published": "2021-10-10T22:18:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/10/day-a-bridge.html",
 				"tags": ["october"]
@@ -408,8 +429,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/09/day-a-long.html",
 				
-				"content_html": "<p>Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe.</p>\n\n<p><img src=\"uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe. \n\n<img src=\"uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe. \n\n<img src=\"https://againstthefuture.net/uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-09T23:43:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/09/day-a-long.html",
 				"tags": ["october"]
@@ -441,8 +462,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/08/day-a-favorite.html",
 				
-				"content_html": "<p>Day 8: A favorite building at twilight.</p>\n\n<p><img src=\"uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" /></p>\n",
-				"content_text": "Day 8: A favorite building at twilight. \n\n<img src=\"uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" />\n",
+				"content_html": "<p>Day 8: A favorite building at twilight.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" /></p>\n",
+				"content_text": "Day 8: A favorite building at twilight. \n\n<img src=\"https://againstthefuture.net/uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" />\n",
 				"date_published": "2021-10-08T23:36:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/08/day-a-favorite.html",
 				"tags": ["october"]
@@ -450,8 +471,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/07/day-the-pandemic.html",
 				
-				"content_html": "<p>Day 7 the pandemic introduced me to my favorite spice.</p>\n\n<p><img src=\"uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" /></p>\n",
-				"content_text": "Day 7 the pandemic introduced me to my favorite spice.\n\n<img src=\"uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" />\n",
+				"content_html": "<p>Day 7 the pandemic introduced me to my favorite spice.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" /></p>\n",
+				"content_text": "Day 7 the pandemic introduced me to my favorite spice.\n\n<img src=\"https://againstthefuture.net/uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" />\n",
 				"date_published": "2021-10-07T21:51:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/07/day-the-pandemic.html",
 				"tags": ["october"]
@@ -468,8 +489,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/06/day-i-dont.html",
 				
-				"content_html": "<p>Day 6: I don&rsquo;t think we ever planned for the number of cars that would be in the streets.</p>\n\n<p><img src=\"uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 6: I don't think we ever planned for the number of cars that would be in the streets.\n\n<img src=\"uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 6: I don&rsquo;t think we ever planned for the number of cars that would be in the streets.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 6: I don't think we ever planned for the number of cars that would be in the streets.\n\n<img src=\"https://againstthefuture.net/uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-06T18:30:59-06:00",
 				"url": "https://againstthefuture.net/2021/10/06/day-i-dont.html",
 				"tags": ["october"]
@@ -502,8 +523,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/05/day-toy-i.html",
 				
-				"content_html": "<p>Day 5: Toy. I love Hanayama puzzles.</p>\n\n<p><img src=\"uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" /></p>\n",
-				"content_text": "Day 5: Toy. I love Hanayama puzzles. \n\n<img src=\"uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" />\n",
+				"content_html": "<p>Day 5: Toy. I love Hanayama puzzles.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" /></p>\n",
+				"content_text": "Day 5: Toy. I love Hanayama puzzles. \n\n<img src=\"https://againstthefuture.net/uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" />\n",
 				"date_published": "2021-10-05T20:34:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/05/day-toy-i.html",
 				"tags": ["october"]
@@ -536,8 +557,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/04/day-sharp.html",
 				
-				"content_html": "<p>Day 4: Sharp</p>\n\n<p><img src=\"uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" /></p>\n",
-				"content_text": "Day 4: Sharp\n\n<img src=\"uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" />\n",
+				"content_html": "<p>Day 4: Sharp</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" /></p>\n",
+				"content_text": "Day 4: Sharp\n\n<img src=\"https://againstthefuture.net/uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" />\n",
 				"date_published": "2021-10-04T22:07:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/04/day-sharp.html",
 				"tags": ["october"]
@@ -545,8 +566,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/03/day-something-about.html",
 				
-				"content_html": "<p>DAY 3: Something about this feels in line with <em>majority</em>.</p>\n\n<p><img src=\"uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "DAY 3: Something about this feels in line with *majority*.\n\n<img src=\"uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>DAY 3: Something about this feels in line with <em>majority</em>.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "DAY 3: Something about this feels in line with *majority*.\n\n<img src=\"https://againstthefuture.net/uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-03T22:30:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/03/day-something-about.html",
 				"tags": ["october"]
@@ -554,8 +575,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/02/day-bronx-building.html",
 				
-				"content_html": "<p>Day 2: Bronx building in the dark</p>\n\n<p><img src=\"uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 2: Bronx building in the dark\n\n<img src=\"uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 2: Bronx building in the dark</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 2: Bronx building in the dark\n\n<img src=\"https://againstthefuture.net/uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-02T22:38:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/02/day-bronx-building.html",
 				"tags": ["october"]
@@ -572,8 +593,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/01/day-of-micros.html",
 				
-				"content_html": "<p>Day 1 of Micro&rsquo;s October Photo Challenge. The theme is touch and I&rsquo;m and thinking of the perennial online insult of social medias past.</p>\n\n<p><img src=\"uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Day 1 of Micro's October Photo Challenge. The theme is touch and I'm and thinking of the perennial online insult of social medias past.\n\n<img src=\"uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Day 1 of Micro&rsquo;s October Photo Challenge. The theme is touch and I&rsquo;m and thinking of the perennial online insult of social medias past.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Day 1 of Micro's October Photo Challenge. The theme is touch and I'm and thinking of the perennial online insult of social medias past.\n\n<img src=\"https://againstthefuture.net/uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-01T18:51:00-06:00",
 				"url": "https://againstthefuture.net/2021/10/01/day-of-micros.html",
 				"tags": ["october"]
@@ -856,6 +877,15 @@
 				"date_published": "2021-04-25T21:00:00-06:00",
 				"url": "https://againstthefuture.net/2021/09/24/how-to-resist.html",
 				"tags": ["readings"]
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/05/12/the-future-came.html",
+				"title": "The Future Came For My Elevator",
+				"content_html": "<p>I came into work and the elevators had new operation panels. The building owners had been threatening us with emails about them for weeks. They finally arrived. Touch LCD screens on the exterior. You select your floor and it tells you which elevator will arrive. Helpful and, I’ve been told, it manages their usage more efficiently (neat).</p>\n\n<p>The elevator arrives and the doors open. The old interior panels obscured your only options now hidden under the lip of metal boxes: open door, close door, call for emergency. Once you’ve summoned the elevator there is no changing your mind. You can’t, on a whim, recall that you needed to visit someone on the sixth floor if you were heading to the 7th. If no one else selected that floor, you’re locked in for the ride. You must complete the trip, exit the elevator, summon it anew, and then reenter the elevator.</p>\n\n<p>Or what if you’ve summoned the elevator for a 12-story ride and someone enters with you. They make you uncomfortable. In an earlier world you could just play it off, “Oh, I actually need to get off here” and press the button for a closer destination that you are more comfortable with. This same technology that manages the elevators could also enable discriminatory elevator behavior in apartments that feature <a href=\"https://nypost.com/2016/01/17/poor-door-tenants-reveal-luxury-towers-financial-apartheid/\">poor doors</a>.</p>\n\n<p>I remember at a New Year’s Eve party my friend pulled out his guitar that had a black box affixed to the back of the guitar head. He played a few notes and the box twisted the knobs to tune the device. For a second, I experienced and expressed the jubilation that every other person in the room did. Then the crushing waves of the implications for monoculture set in – a never-ending cascade of perfectly computer tuned guitars. No input from the musician&rsquo;s ear. No slight variance across different players to give them their own unique sounds. Just a world of programmer dictated bias acting on the gears that tune the strings.</p>\n\n<p>All of this is to say that I’m desperately worried about the costs and what we lose by willfully entering this future. It’s often proclaimed that diversification is good. Yet onward we march to an increasingly fragile order. Monocultures are not robust or resilient and, often, they’re boring.</p>\n",
+				"content_text": "\nI came into work and the elevators had new operation panels. The building owners had been threatening us with emails about them for weeks. They finally arrived. Touch LCD screens on the exterior. You select your floor and it tells you which elevator will arrive. Helpful and, I’ve been told, it manages their usage more efficiently (neat).\n\nThe elevator arrives and the doors open. The old interior panels obscured your only options now hidden under the lip of metal boxes: open door, close door, call for emergency. Once you’ve summoned the elevator there is no changing your mind. You can’t, on a whim, recall that you needed to visit someone on the sixth floor if you were heading to the 7th. If no one else selected that floor, you’re locked in for the ride. You must complete the trip, exit the elevator, summon it anew, and then reenter the elevator.\n\nOr what if you’ve summoned the elevator for a 12-story ride and someone enters with you. They make you uncomfortable. In an earlier world you could just play it off, “Oh, I actually need to get off here” and press the button for a closer destination that you are more comfortable with. This same technology that manages the elevators could also enable discriminatory elevator behavior in apartments that feature [poor doors] (https://nypost.com/2016/01/17/poor-door-tenants-reveal-luxury-towers-financial-apartheid/).\n\nI remember at a New Year’s Eve party my friend pulled out his guitar that had a black box affixed to the back of the guitar head. He played a few notes and the box twisted the knobs to tune the device. For a second, I experienced and expressed the jubilation that every other person in the room did. Then the crushing waves of the implications for monoculture set in – a never-ending cascade of perfectly computer tuned guitars. No input from the musician's ear. No slight variance across different players to give them their own unique sounds. Just a world of programmer dictated bias acting on the gears that tune the strings. \n\nAll of this is to say that I’m desperately worried about the costs and what we lose by willfully entering this future. It’s often proclaimed that diversification is good. Yet onward we march to an increasingly fragile order. Monocultures are not robust or resilient and, often, they’re boring.\n",
+				"date_published": "2019-03-30T20:39:00-06:00",
+				"url": "https://againstthefuture.net/2022/05/12/the-future-came.html",
+				"tags": ["essays"]
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/09/24/radicalized-by-cory.html",
