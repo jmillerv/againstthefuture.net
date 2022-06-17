@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://jmiller.micro.blog/2022/06/05/very-unexpectedly-someone.html",
+				
+				"content_html": "<p>Very unexpectedly, someone made a PR into a repository I created a few days ago. It didn&rsquo;t exactly solve my problem, but normally my code goes unnoticed on github. Just truly bizarre that they found it.</p>\n",
+				"content_text": "Very unexpectedly, someone made a PR into a repository I created a few days ago. It didn't exactly solve my problem, but normally my code goes unnoticed on github. Just truly bizarre that they found it. \n",
+				"date_published": "2022-06-05T23:25:28-04:00",
+				"url": "https://againstthefuture.net/2022/06/05/very-unexpectedly-someone.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/05/31/imagining-an-ai.html",
+				"title": "Imagining an AI Commons Report",
+				"content_html": "<p>At the end of 2019, a lifetime ago, I participated in Machines Agencies&rsquo; Imagining an AI Commons workshop at Concordia University in Montréal. Though my interests do not center AI, this workshop and the commons would end up being central to my work as I endeavored to square the ubiquity of information technology in daily life with the possibilities and challenges to creating a commons of information technology infrastructure.\nThe assembly of this report was delayed by the pandemic, but a report and video about the workshop has been prepared.</p>\n\n<p>I&rsquo;ve not sat still since completing my master&rsquo;s and the result is that I haven&rsquo;t touched any of my academic work since November, but this reminds me I need to make my way back towards it.</p>\n\n<p>If you&rsquo;re interested you can download the <a href=\"https://machineagencies.milieux.ca/wp-content/uploads/2022/05/AI_commons_Report_v3.pdf\">report</a></p>\n\n<p>Or watch the <a href=\"https://youtu.be/UQJcE3U4LMY\">video</a></p>\n\n<p>Machine Agencies has also launched a new <a href=\"https://machineagencies.milieux.ca/home-demo-5/\">website</a>, which you should check out.</p>\n",
+				"content_text": "At the end of 2019, a lifetime ago, I participated in Machines Agencies' Imagining an AI Commons workshop at Concordia University in Montréal. Though my interests do not center AI, this workshop and the commons would end up being central to my work as I endeavored to square the ubiquity of information technology in daily life with the possibilities and challenges to creating a commons of information technology infrastructure. \nThe assembly of this report was delayed by the pandemic, but a report and video about the workshop has been prepared.\n\nI've not sat still since completing my master's and the result is that I haven't touched any of my academic work since November, but this reminds me I need to make my way back towards it. \n\nIf you're interested you can download the [report](https://machineagencies.milieux.ca/wp-content/uploads/2022/05/AI_commons_Report_v3.pdf)\n\nOr watch the [video](https://youtu.be/UQJcE3U4LMY)\n\nMachine Agencies has also launched a new [website](https://machineagencies.milieux.ca/home-demo-5/), which you should check out.\n",
+				"date_published": "2022-05-31T20:09:48-04:00",
+				"url": "https://againstthefuture.net/2022/05/31/imagining-an-ai.html",
+				"tags": ["technology"]
+			},
+			{
 				"id": "http://jmiller.micro.blog/2022/05/31/what-a-difference.html",
 				
 				"content_html": "<p>What a difference prioritizing good documentation and reasonable meeting times makes.</p>\n",
@@ -243,8 +260,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/22/day-two-years.html",
 				
-				"content_html": "<p>DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" /></p>\n",
-				"content_text": "DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest. \n\n<img src=\"https://againstthefuture.net/uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" />\n",
+				"content_html": "<p>DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest.</p>\n\n<p><img src=\"uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" /></p>\n",
+				"content_text": "DAY 22: Two years largely indoors and constantly engaged in screens has my eyes in regular need of some forced rest. \n\n<img src=\"uploads/2021/ab81775e08.jpg\" width=\"600\" height=\"245\" alt=\"\" />\n",
 				"date_published": "2021-10-23T01:14:10-04:00",
 				"url": "https://againstthefuture.net/2021/10/22/day-two-years.html"
 			},
@@ -260,8 +277,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/21/day-this-painting.html",
 				
-				"content_html": "<p>Day 21: This painting from a friend above my work shelf often reminds me of space.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" /></p>\n",
-				"content_text": "Day 21: This painting from a friend above my work shelf often reminds me of space. \n\n<img src=\"https://againstthefuture.net/uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" />\n",
+				"content_html": "<p>Day 21: This painting from a friend above my work shelf often reminds me of space.</p>\n\n<p><img src=\"uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" /></p>\n",
+				"content_text": "Day 21: This painting from a friend above my work shelf often reminds me of space. \n\n<img src=\"uploads/2021/1a23e0a816.jpg\" width=\"600\" height=\"436\" alt=\"\" />\n",
 				"date_published": "2021-10-22T00:49:20-04:00",
 				"url": "https://againstthefuture.net/2021/10/21/day-this-painting.html"
 			},
@@ -277,16 +294,16 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/20/day-when-there.html",
 				
-				"content_html": "<p>Day 20 when there is only one sport</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 20 when there is only one sport \n\n<img src=\"https://againstthefuture.net/uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 20 when there is only one sport</p>\n\n<p><img src=\"uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 20 when there is only one sport \n\n<img src=\"uploads/2021/5af71528db.jpg\" width=\"598\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-21T01:19:12-04:00",
 				"url": "https://againstthefuture.net/2021/10/20/day-when-there.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/19/day-some-favorite.html",
 				
-				"content_html": "<p>Day 19: Some favorite and oft cited books on a <strong>mirror</strong></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" /></p>\n",
-				"content_text": "Day 19: Some favorite and oft cited books on a **mirror**\n\n<img src=\"https://againstthefuture.net/uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" />\n",
+				"content_html": "<p>Day 19: Some favorite and oft cited books on a <strong>mirror</strong></p>\n\n<p><img src=\"uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" /></p>\n",
+				"content_text": "Day 19: Some favorite and oft cited books on a **mirror**\n\n<img src=\"uploads/2021/1d6403266b.jpg\" width=\"600\" height=\"415\" alt=\"\" />\n",
 				"date_published": "2021-10-20T01:16:42-04:00",
 				"url": "https://againstthefuture.net/2021/10/19/day-some-favorite.html"
 			},
@@ -310,8 +327,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/18/day-i-said.html",
 				
-				"content_html": "<p>Day 18: I said I&rsquo;d be <strong>finished</strong> hanging flyers when I ran out of tape.\nFlyer created by: <a href=\"https://twitter.com/banditelli\">twitter.com/banditell&hellip;</a></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 18: I said I'd be **finished** hanging flyers when I ran out of tape.\nFlyer created by: [twitter.com/banditell...](https://twitter.com/banditelli)\n\n<img src=\"https://againstthefuture.net/uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 18: I said I&rsquo;d be <strong>finished</strong> hanging flyers when I ran out of tape.\nFlyer created by: <a href=\"https://twitter.com/banditelli\">twitter.com/banditell&hellip;</a></p>\n\n<p><img src=\"uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 18: I said I'd be **finished** hanging flyers when I ran out of tape.\nFlyer created by: [twitter.com/banditell...](https://twitter.com/banditelli)\n\n<img src=\"uploads/2021/063713a721.jpg\" width=\"480\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-19T00:33:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/18/day-i-said.html",
 				"tags": ["october"]
@@ -319,16 +336,16 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/17/day-compass-i.html",
 				
-				"content_html": "<p>Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story. \n\n<img src=\"https://againstthefuture.net/uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story.</p>\n\n<p><img src=\"uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 17: Compass. I like how the author deals with navigating the stars in this book and the dynamics it added to the story. \n\n<img src=\"uploads/2021/bbb5bf77f6.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-18T00:55:34-04:00",
 				"url": "https://againstthefuture.net/2021/10/17/day-compass-i.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/16/rotation-day-ive.html",
 				
-				"content_html": "<p><strong>Rotation</strong> Day 16\n&gt; <em>I&rsquo;ve got a feeling the weather is changing<br />\n&gt;  And my luck is in</em></p>\n\n<p>/ <a href=\"https://micro.blog/challenges\">@challenges</a></p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "**Rotation** Day 16\n> *I've got a feeling the weather is changing  \n>  And my luck is in*\n\n/ [@challenges](https://micro.blog/challenges) \n\n<img src=\"https://againstthefuture.net/uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><strong>Rotation</strong> Day 16\n&gt; <em>I&rsquo;ve got a feeling the weather is changing<br />\n&gt;  And my luck is in</em></p>\n\n<p>/ <a href=\"https://micro.blog/challenges\">@challenges</a></p>\n\n<p><img src=\"uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "**Rotation** Day 16\n> *I've got a feeling the weather is changing  \n>  And my luck is in*\n\n/ [@challenges](https://micro.blog/challenges) \n\n<img src=\"uploads/2021/ffeb71f55c.jpg\" width=\"590\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-17T01:08:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/16/rotation-day-ive.html",
 				"tags": ["october"]
@@ -354,24 +371,24 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/15/day-an-ethereal.html",
 				
-				"content_html": "<p>DAY 15: An ethereal moment in gaming history</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" /></p>\n",
-				"content_text": "DAY 15: An ethereal moment in gaming history \n\n<img src=\"https://againstthefuture.net/uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" />\n",
+				"content_html": "<p>DAY 15: An ethereal moment in gaming history</p>\n\n<p><img src=\"uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" /></p>\n",
+				"content_text": "DAY 15: An ethereal moment in gaming history \n\n<img src=\"uploads/2021/39e0fbe1d0.jpg\" width=\"600\" height=\"300\" alt=\"\" />\n",
 				"date_published": "2021-10-16T01:23:30-04:00",
 				"url": "https://againstthefuture.net/2021/10/15/day-an-ethereal.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/14/day-wheels-up.html",
 				
-				"content_html": "<p>Day 14: wheels up</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" /></p>\n",
-				"content_text": "Day 14: wheels up\n\n<img src=\"https://againstthefuture.net/uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" />\n",
+				"content_html": "<p>Day 14: wheels up</p>\n\n<p><img src=\"uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" /></p>\n",
+				"content_text": "Day 14: wheels up\n\n<img src=\"uploads/2021/386e5699eb.jpg\" width=\"600\" height=\"426\" alt=\"\" />\n",
 				"date_published": "2021-10-15T01:10:03-04:00",
 				"url": "https://againstthefuture.net/2021/10/14/day-wheels-up.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/13/day-love-running.html",
 				
-				"content_html": "<p>Day 13: love running into alley animals.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 13: love running into alley animals.\n\n<img src=\"https://againstthefuture.net/uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 13: love running into alley animals.</p>\n\n<p><img src=\"uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 13: love running into alley animals.\n\n<img src=\"uploads/2021/dc90c89925.jpg\" width=\"347\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-14T01:52:55-04:00",
 				"url": "https://againstthefuture.net/2021/10/13/day-love-running.html"
 			},
@@ -395,8 +412,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/12/day-my-grandma.html",
 				
-				"content_html": "<p>Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that&rsquo;s not true, she did smoke three packs of these a day.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that's not true, she did smoke three packs of these a day. \n\n\n\n<img src=\"https://againstthefuture.net/uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that&rsquo;s not true, she did smoke three packs of these a day.</p>\n\n<p><img src=\"uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 12: My grandma survived lung cancer and before she passed I used to tell a legend that she outsmoked the cancer. While that's not true, she did smoke three packs of these a day. \n\n\n\n<img src=\"uploads/2021/797c5f72ab.jpg\" width=\"398\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-13T01:22:23-04:00",
 				"url": "https://againstthefuture.net/2021/10/12/day-my-grandma.html"
 			},
@@ -420,16 +437,16 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/11/day-higge.html",
 				
-				"content_html": "<p>Day 11: Higge</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Day 11: Higge\n\n<img src=\"https://againstthefuture.net/uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Day 11: Higge</p>\n\n<p><img src=\"uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Day 11: Higge\n\n<img src=\"uploads/2021/e3da675b72.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-12T01:50:48-04:00",
 				"url": "https://againstthefuture.net/2021/10/11/day-higge.html"
 			},
 			{
 				"id": "http://jmiller.micro.blog/2021/10/10/day-a-bridge.html",
 				
-				"content_html": "<p>Day 10: A bridge of cards</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" /></p>\n",
-				"content_text": "Day 10: A bridge of cards\n\n<img src=\"https://againstthefuture.net/uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" />\n",
+				"content_html": "<p>Day 10: A bridge of cards</p>\n\n<p><img src=\"uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" /></p>\n",
+				"content_text": "Day 10: A bridge of cards\n\n<img src=\"uploads/2021/e86cd74641.jpg\" width=\"600\" height=\"484\" alt=\"\" />\n",
 				"date_published": "2021-10-11T00:18:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/10/day-a-bridge.html",
 				"tags": ["october"]
@@ -437,8 +454,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/09/day-a-long.html",
 				
-				"content_html": "<p>Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe. \n\n<img src=\"https://againstthefuture.net/uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe.</p>\n\n<p><img src=\"uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 9: A long time ago, an old friend gifted me this piggy bank to keep my money safe. \n\n<img src=\"uploads/2021/648bbb890a.jpg\" width=\"446\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-10T01:43:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/09/day-a-long.html",
 				"tags": ["october"]
@@ -470,8 +487,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/08/day-a-favorite.html",
 				
-				"content_html": "<p>Day 8: A favorite building at twilight.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" /></p>\n",
-				"content_text": "Day 8: A favorite building at twilight. \n\n<img src=\"https://againstthefuture.net/uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" />\n",
+				"content_html": "<p>Day 8: A favorite building at twilight.</p>\n\n<p><img src=\"uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" /></p>\n",
+				"content_text": "Day 8: A favorite building at twilight. \n\n<img src=\"uploads/2021/be4fc1f882.jpg\" width=\"600\" height=\"362\" alt=\"\" />\n",
 				"date_published": "2021-10-09T01:36:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/08/day-a-favorite.html",
 				"tags": ["october"]
@@ -479,8 +496,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/07/day-the-pandemic.html",
 				
-				"content_html": "<p>Day 7 the pandemic introduced me to my favorite spice.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" /></p>\n",
-				"content_text": "Day 7 the pandemic introduced me to my favorite spice.\n\n<img src=\"https://againstthefuture.net/uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" />\n",
+				"content_html": "<p>Day 7 the pandemic introduced me to my favorite spice.</p>\n\n<p><img src=\"uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" /></p>\n",
+				"content_text": "Day 7 the pandemic introduced me to my favorite spice.\n\n<img src=\"uploads/2021/a93a717fbf.jpg\" width=\"600\" height=\"285\" alt=\"\" />\n",
 				"date_published": "2021-10-07T23:51:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/07/day-the-pandemic.html",
 				"tags": ["october"]
@@ -497,8 +514,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/06/day-i-dont.html",
 				
-				"content_html": "<p>Day 6: I don&rsquo;t think we ever planned for the number of cars that would be in the streets.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 6: I don't think we ever planned for the number of cars that would be in the streets.\n\n<img src=\"https://againstthefuture.net/uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 6: I don&rsquo;t think we ever planned for the number of cars that would be in the streets.</p>\n\n<p><img src=\"uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 6: I don't think we ever planned for the number of cars that would be in the streets.\n\n<img src=\"uploads/2021/8d973436e2.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-06T20:30:59-04:00",
 				"url": "https://againstthefuture.net/2021/10/06/day-i-dont.html",
 				"tags": ["october"]
@@ -531,8 +548,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/05/day-toy-i.html",
 				
-				"content_html": "<p>Day 5: Toy. I love Hanayama puzzles.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" /></p>\n",
-				"content_text": "Day 5: Toy. I love Hanayama puzzles. \n\n<img src=\"https://againstthefuture.net/uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" />\n",
+				"content_html": "<p>Day 5: Toy. I love Hanayama puzzles.</p>\n\n<p><img src=\"uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" /></p>\n",
+				"content_text": "Day 5: Toy. I love Hanayama puzzles. \n\n<img src=\"uploads/2021/2288a75049.jpg\" width=\"600\" height=\"360\" alt=\"\" />\n",
 				"date_published": "2021-10-05T22:34:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/05/day-toy-i.html",
 				"tags": ["october"]
@@ -565,8 +582,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/04/day-sharp.html",
 				
-				"content_html": "<p>Day 4: Sharp</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" /></p>\n",
-				"content_text": "Day 4: Sharp\n\n<img src=\"https://againstthefuture.net/uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" />\n",
+				"content_html": "<p>Day 4: Sharp</p>\n\n<p><img src=\"uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" /></p>\n",
+				"content_text": "Day 4: Sharp\n\n<img src=\"uploads/2021/c1ee9bc50e.jpg\" width=\"600\" height=\"375\" alt=\"\" />\n",
 				"date_published": "2021-10-05T00:07:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/04/day-sharp.html",
 				"tags": ["october"]
@@ -574,8 +591,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/03/day-something-about.html",
 				
-				"content_html": "<p>DAY 3: Something about this feels in line with <em>majority</em>.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "DAY 3: Something about this feels in line with *majority*.\n\n<img src=\"https://againstthefuture.net/uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>DAY 3: Something about this feels in line with <em>majority</em>.</p>\n\n<p><img src=\"uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "DAY 3: Something about this feels in line with *majority*.\n\n<img src=\"uploads/2021/4022db32f4.jpg\" width=\"386\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-04T00:30:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/03/day-something-about.html",
 				"tags": ["october"]
@@ -583,8 +600,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/02/day-bronx-building.html",
 				
-				"content_html": "<p>Day 2: Bronx building in the dark</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Day 2: Bronx building in the dark\n\n<img src=\"https://againstthefuture.net/uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Day 2: Bronx building in the dark</p>\n\n<p><img src=\"uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Day 2: Bronx building in the dark\n\n<img src=\"uploads/2021/7744613075.png\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-03T00:38:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/02/day-bronx-building.html",
 				"tags": ["october"]
@@ -601,8 +618,8 @@
 			{
 				"id": "http://jmiller.micro.blog/2021/10/01/day-of-micros.html",
 				
-				"content_html": "<p>Day 1 of Micro&rsquo;s October Photo Challenge. The theme is touch and I&rsquo;m and thinking of the perennial online insult of social medias past.</p>\n\n<p><img src=\"https://againstthefuture.net/uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Day 1 of Micro's October Photo Challenge. The theme is touch and I'm and thinking of the perennial online insult of social medias past.\n\n<img src=\"https://againstthefuture.net/uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Day 1 of Micro&rsquo;s October Photo Challenge. The theme is touch and I&rsquo;m and thinking of the perennial online insult of social medias past.</p>\n\n<p><img src=\"uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Day 1 of Micro's October Photo Challenge. The theme is touch and I'm and thinking of the perennial online insult of social medias past.\n\n<img src=\"uploads/2021/c96a9d1909.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-01T20:51:00-04:00",
 				"url": "https://againstthefuture.net/2021/10/01/day-of-micros.html",
 				"tags": ["october"]
