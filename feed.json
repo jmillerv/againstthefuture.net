@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://jmiller.micro.blog/2022/06/30/didnt-realize-what.html",
+				
+				"content_html": "<p>Didn&rsquo;t realize what a blessing having a European IP address was. You get better cookie preferences pop-ups.</p>\n",
+				"content_text": "Didn't realize what a blessing having a European IP address was. You get better cookie preferences pop-ups. \n",
+				"date_published": "2022-06-30T08:22:37-04:00",
+				"url": "https://againstthefuture.net/2022/06/30/didnt-realize-what.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/06/23/i-need-a.html",
+				
+				"content_html": "<p>I need a standard that is adopted across the desktop industry for keyboard shortcuts (with a flag to handle the Mac translation).</p>\n\n<p>Daily, I interact and work on Linux, Windows, Mac devices and I just need my keyboard shortcuts to be the same.</p>\n",
+				"content_text": "I need a standard that is adopted across the desktop industry for keyboard shortcuts (with a flag to handle the Mac translation). \r\n\r\nDaily, I interact and work on Linux, Windows, Mac devices and I just need my keyboard shortcuts to be the same.\n",
+				"date_published": "2022-06-23T14:05:08-04:00",
+				"url": "https://againstthefuture.net/2022/06/23/i-need-a.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/06/23/i-hate-it.html",
+				"title": "I Hate It Here (Earth)",
+				"content_html": "<p>In the early Trump administration, I thought there was a possibility that the neverending parade of horrors might be transitory. During the summer of 2020 I was sure of it. People reached a boiling point. We had masses in the streets, we were doing policy that hadn&rsquo;t been done in decades. Hell, we gave people money without means testing. It seemed like a moment where things could break for the better. And I am so stunningly disappointed in my own naivete. Of course it wasn&rsquo;t going to get better. Of course we would be subjected to inaction on every major crises facing the world and of course our leaders would get on TV offer us platitudes and then do nothing &ndash; often worse than nothing. So, now I have my small corner of the world that I guess I&rsquo;ll try to make better in the ways I can but it feels so woefully insufficient.</p>\n",
+				"content_text": "In the early Trump administration, I thought there was a possibility that the neverending parade of horrors might be transitory. During the summer of 2020 I was sure of it. People reached a boiling point. We had masses in the streets, we were doing policy that hadn't been done in decades. Hell, we gave people money without means testing. It seemed like a moment where things could break for the better. And I am so stunningly disappointed in my own naivete. Of course it wasn't going to get better. Of course we would be subjected to inaction on every major crises facing the world and of course our leaders would get on TV offer us platitudes and then do nothing -- often worse than nothing. So, now I have my small corner of the world that I guess I'll try to make better in the ways I can but it feels so woefully insufficient. \n",
+				"date_published": "2022-06-23T13:51:37-04:00",
+				"url": "https://againstthefuture.net/2022/06/23/i-hate-it.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/06/21/we-need-infrastructure.html",
+				
+				"content_html": "<p>We need infrastructure to address inflation not unemployment.</p>\n",
+				"content_text": "We need infrastructure to address inflation not unemployment. \r\n\r\n",
+				"date_published": "2022-06-21T12:15:01-04:00",
+				"url": "https://againstthefuture.net/2022/06/21/we-need-infrastructure.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/06/21/doesnt-feel-like.html",
+				
+				"content_html": "<p>Doesn&rsquo;t feel like a slide towards fascism so much as rocketing towards it.</p>\n",
+				"content_text": "Doesn't feel like a slide towards fascism so much as rocketing towards it. \n",
+				"date_published": "2022-06-21T11:35:47-04:00",
+				"url": "https://againstthefuture.net/2022/06/21/doesnt-feel-like.html"
+			},
+			{
+				"id": "http://jmiller.micro.blog/2022/06/21/pebbles-are-such.html",
+				
+				"content_html": "<p>Pebbles are such great products. The community they actively built has preserved a great piece of technology and keeps improving upon it. Rebble presents a hopeful case for consumer electronics.</p>\n",
+				"content_text": "Pebbles are such great products. The community they actively built has preserved a great piece of technology and keeps improving upon it. Rebble presents a hopeful case for consumer electronics. \n",
+				"date_published": "2022-06-21T11:23:44-04:00",
+				"url": "https://againstthefuture.net/2022/06/21/pebbles-are-such.html"
+			},
+			{
 				"id": "http://jmiller.micro.blog/2022/06/05/very-unexpectedly-someone.html",
 				
 				"content_html": "<p>Very unexpectedly, someone made a PR into a repository I created a few days ago. It didn&rsquo;t exactly solve my problem, but normally my code goes unnoticed on github. Just truly bizarre that they found it.</p>\n",
